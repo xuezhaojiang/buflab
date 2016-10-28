@@ -1,0 +1,150 @@
+
+bufbomb:     file format elf32-i386
+
+SYMBOL TABLE:
+08048114 l    d  .interp	00000000              .interp
+08048128 l    d  .note.ABI-tag	00000000              .note.ABI-tag
+08048148 l    d  .hash	00000000              .hash
+08048214 l    d  .dynsym	00000000              .dynsym
+08048414 l    d  .dynstr	00000000              .dynstr
+08048524 l    d  .gnu.version	00000000              .gnu.version
+08048564 l    d  .gnu.version_r	00000000              .gnu.version_r
+080485a4 l    d  .rel.dyn	00000000              .rel.dyn
+080485bc l    d  .rel.plt	00000000              .rel.plt
+0804869c l    d  .init	00000000              .init
+080486b4 l    d  .plt	00000000              .plt
+08048890 l    d  .text	00000000              .text
+08049594 l    d  .fini	00000000              .fini
+080495b0 l    d  .rodata	00000000              .rodata
+08049b68 l    d  .eh_frame	00000000              .eh_frame
+0804a000 l    d  .ctors	00000000              .ctors
+0804a008 l    d  .dtors	00000000              .dtors
+0804a010 l    d  .jcr	00000000              .jcr
+0804a014 l    d  .dynamic	00000000              .dynamic
+0804a0dc l    d  .got	00000000              .got
+0804a0e0 l    d  .got.plt	00000000              .got.plt
+0804a15c l    d  .data	00000000              .data
+0804a1a0 l    d  .bss	00000000              .bss
+00000000 l    d  .comment	00000000              .comment
+00000000 l    d  .debug_aranges	00000000              .debug_aranges
+00000000 l    d  .debug_pubnames	00000000              .debug_pubnames
+00000000 l    d  .debug_info	00000000              .debug_info
+00000000 l    d  .debug_abbrev	00000000              .debug_abbrev
+00000000 l    d  .debug_line	00000000              .debug_line
+00000000 l    d  .debug_str	00000000              .debug_str
+00000000 l    d  *ABS*	00000000              .shstrtab
+00000000 l    d  *ABS*	00000000              .symtab
+00000000 l    d  *ABS*	00000000              .strtab
+00000000 l    df *ABS*	00000000              abi-note.S
+00000000 l    df *ABS*	00000000              ../sysdeps/i386/elf/start.S
+00000000 l    df *ABS*	00000000              init.c
+00000000 l    df *ABS*	00000000              initfini.c
+00000000 l    df *ABS*	00000000              /build/buildd/glibc-2.3.6.ds1/build-tree/i386-libc/csu/crti.S
+080488b4 l     F .text	00000000              call_gmon_start
+00000000 l    df *ABS*	00000000              crtstuff.c
+0804a000 l     O .ctors	00000000              __CTOR_LIST__
+0804a008 l     O .dtors	00000000              __DTOR_LIST__
+0804a010 l     O .jcr	00000000              __JCR_LIST__
+0804a1a8 l     O .bss	00000001              completed.5621
+0804a164 l     O .data	00000000              p.5619
+080488e0 l     F .text	00000000              __do_global_dtors_aux
+08048910 l     F .text	00000000              frame_dummy
+00000000 l    df *ABS*	00000000              crtstuff.c
+0804a004 l     O .ctors	00000000              __CTOR_END__
+0804a00c l     O .dtors	00000000              __DTOR_END__
+08049b68 l     O .eh_frame	00000000              __FRAME_END__
+0804a010 l     O .jcr	00000000              __JCR_END__
+08049560 l     F .text	00000000              __do_global_ctors_aux
+00000000 l    df *ABS*	00000000              initfini.c
+00000000 l    df *ABS*	00000000              /build/buildd/glibc-2.3.6.ds1/build-tree/i386-libc/csu/crtn.S
+00000000 l    df *ABS*	00000000              bufbomb.c
+08048940 l     F .text	00000052              save_char
+08049b58 l     O .rodata	00000010              trans_char
+0804a200 l     O .bss	00000c01              gets_buf
+0804a170 l     O .data	00000004              alarm_time
+08048a80 l     F .text	00000052              usage
+0804a174 l     O .data	00000014              level_counts
+08049070 l     F .text	000000a5              launch
+00000000 l    df *ABS*	00000000              gencookie.c
+0804a014 l     O .dynamic	00000000              .hidden _DYNAMIC
+0804a000 l       *ABS*	00000000              .hidden __fini_array_end
+0804a000 l       *ABS*	00000000              .hidden __fini_array_start
+0804a000 l       *ABS*	00000000              .hidden __init_array_end
+0804a0e0 l     O .got.plt	00000000              .hidden _GLOBAL_OFFSET_TABLE_
+0804a000 l       *ABS*	00000000              .hidden __init_array_start
+0804a1e0 g     O .bss	00000004              gets_cnt
+0804a1dc g     O .bss	00000004              global_value
+0804a1d8 g     O .bss	00000004              success
+0804a1c4 g     O .bss	00000004              quiet
+08048f70 g     F .text	00000070              testn
+0804a168 g     O .data	00000004              submit
+080489e0 g     F .text	00000033              alarmhandler
+080495b0 g     O .rodata	00000004              _fp_hw
+080489b0 g     F .text	0000002a              illegalhandler
+00000000       F *UND*	00000024              fprintf@@GLIBC_2.0
+00000000       F *UND*	00000077              tempnam@@GLIBC_2.0
+00000000       F *UND*	000000da              signal@@GLIBC_2.0
+08048fe0 g     F .text	00000018              getbuf
+0804a160 g     O .data	00000000              .hidden __dso_handle
+080494b0 g     F .text	0000004d              __libc_csu_fini
+080493e0 g     F .text	00000042              hash
+00000000       F *UND*	0000007d              system@@GLIBC_2.0
+00000000       F *UND*	00000062              random@@GLIBC_2.0
+00000000       F *UND*	0000017f              puts@@GLIBC_2.0
+0804869c g     F .init	00000000              _init
+080489a0 g     F .text	0000000d              entry_check
+00000000       F *UND*	00000057              remove@@GLIBC_2.0
+08048a20 g     F .text	0000002a              seghandler
+08048f50 g     F .text	0000001e              getbufn
+08049430 g     F .text	00000034              check
+08048e60 g     F .text	000000ee              Gets
+08049000 g     F .text	00000070              test
+08048890 g     F .text	00000000              _start
+00000000       F *UND*	00000043              getopt@@GLIBC_2.0
+0804a1d4 g     O .bss	00000004              grade
+0804a1cc g     O .bss	00000004              cookie
+08049470 g     F .text	00000039              gencookie
+08048ae0 g     F .text	00000278              validate
+00000000       F *UND*	000000e7              fputc@@GLIBC_2.0
+08049500 g     F .text	00000053              __libc_csu_init
+0804a188 g       *ABS*	00000000              __bss_start
+08049120 g     F .text	000002b6              main
+00000000       F *UND*	000000e7              __libc_start_main@@GLIBC_2.0
+0804a15c  w      .data	00000000              data_start
+00000000       F *UND*	00000039              printf@@GLIBC_2.0
+08049594 g     F .fini	00000000              _fini
+00000000       F *UND*	000001ca              fclose@@GLIBC_2.1
+00000000       F *UND*	00000057              __strdup@@GLIBC_2.0
+0804a1c8 g     O .bss	00000004              hexformat
+0804a1c0 g     O .bss	00000004              infile
+00000000       F *UND*	0000005b              srand@@GLIBC_2.0
+00000000       F *UND*	000000db              exit@@GLIBC_2.0
+00000000       F *UND*	000003b7              calloc@@GLIBC_2.0
+08048dc0 g     F .text	0000005e              fizz
+0804a188 g       *ABS*	00000000              _edata
+0804a16c g     O .data	00000004              check_level
+08049553 g     F .text	00000000              .hidden __i686.get_pc_thunk.bx
+0804ae04 g       *ABS*	00000000              _end
+00000000       F *UND*	00000056              memset@@GLIBC_2.0
+0804a1a0 g     O .bss	00000004              stdin@@GLIBC_2.0
+00000000       F *UND*	00000033              fopen@@GLIBC_2.1
+0804a1a4 g     O .bss	00000004              optarg@@GLIBC_2.0
+080495b4 g     O .rodata	00000004              _IO_stdin_used
+00000000       F *UND*	0000005b              srandom@@GLIBC_2.0
+00000000       F *UND*	00000034              sprintf@@GLIBC_2.0
+00000000       F *UND*	00000167              fwrite@@GLIBC_2.0
+0804a15c g       .data	00000000              __data_start
+00000000       F *UND*	000000cc              _IO_getc@@GLIBC_2.0
+00000000  w      *UND*	00000000              _Jv_RegisterClasses
+00000000       F *UND*	00000071              __ctype_b_loc@@GLIBC_2.3
+08048a50 g     F .text	0000002a              bushandler
+08048e20 g     F .text	00000036              smoke
+00000000       F *UND*	00000017              rand@@GLIBC_2.0
+0804a1d0 g     O .bss	00000004              team
+00000000       F *UND*	00000036              alarm@@GLIBC_2.0
+00000000       F *UND*	0000009b              cuserid@@GLIBC_2.0
+08048d60 g     F .text	0000005e              bang
+00000000  w      *UND*	00000000              __gmon_start__
+00000000       F *UND*	00000020              strcpy@@GLIBC_2.0
+
+

